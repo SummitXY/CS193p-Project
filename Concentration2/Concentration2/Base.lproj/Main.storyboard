@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hUn-ud-HJh">
-                                <rect key="frame" x="60" y="0.0" width="692" height="232"/>
+                                <rect key="frame" x="60" y="16" width="692" height="232"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mJe-18-gEH">
                                         <rect key="frame" x="0.0" y="0.0" width="692" height="72"/>
@@ -145,7 +145,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="CRa-Dj-rnz" firstAttribute="top" relation="lessThanOrEqual" secondItem="hUn-ud-HJh" secondAttribute="bottom" constant="454" id="Hmi-r6-lYU"/>
-                            <constraint firstItem="hUn-ud-HJh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WDs-mO-9Iy"/>
+                            <constraint firstItem="hUn-ud-HJh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="WDs-mO-9Iy"/>
                             <constraint firstItem="CRa-Dj-rnz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fnm-V7-8J5"/>
                             <constraint firstItem="hUn-ud-HJh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gea-PY-a6I"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hUn-ud-HJh" secondAttribute="trailing" constant="16" id="sXp-0U-Gaw"/>
@@ -171,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-79.802955665024641" y="132"/>
         </scene>
     </scenes>
 </document>
